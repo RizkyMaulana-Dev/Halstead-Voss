@@ -8,7 +8,7 @@ export function SiteFooter() {
       <div className="mx-auto max-w-[1160px] px-4 py-[56px] lg:px-32">
         <div className="grid gap-[32px] lg:grid-cols-[1.4fr_1fr_1fr_1fr] lg:gap-[32px]">
           <div className="lg:col-span-1">
-            <Brand className="flex items-center gap-2 invert" invert color="text-white" />
+            <div className="text-white"><Brand className="flex items-center gap-2 invert" invert color="!text-white" /></div>
             <p className="mt-5 max-w-[38ch] text-[12px] leading-[1.5] opacity-65">
               {footer.description}
             </p>
